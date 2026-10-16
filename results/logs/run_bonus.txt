@@ -1,0 +1,5 @@
+mask: cv2.fillPoly with 13 vertices around the walker (x 54-73, y 360-401)
+[tower_walker] 714x484; mask 688 px, widest row 20 px -> k = 20 seams removed (0.8 s), reduced to width 694; grown back by 20 seams (0.8 s) -> width 714
+[tower_walker] how often a pixel of the reduced photo is written: k seams from a copy -> at most 2x (9680 pixels written twice, 0 more than twice); cheapest seam inserted 20 times -> up to 21x (706 duplicated, 530 more than twice)
+[tower_walker] distinct columns of the reduced photo that get stretched (mean over rows): k-from-copy 20.0, repeated-cheapest 1.5  (of k = 20)
+[starry] enlargement test 504 -> 720 (k = 216): k seams from a copy 5.8 s, cheapest seam repeated 13.5 s; a pixel is written at most 2x (ours) vs 217x (naive); written more than twice: 0 vs 630; distinct stretched columns per row: 216.0 vs 1.2
