@@ -1,0 +1,15 @@
+[oraple] images (512, 512, 3); mask: left half = 1 (white), right half = 0
+[oraple] seam width (pixels where image 1 weighs 10%..90%) vs levels: {1: 0, 2: 4, 3: 8, 4: 16, 5: 34, 6: 67, 7: 134, 8: 273}
+[oraple] 6 levels; blend range [-0.000, 1.000], 0.00% of values clipped for display/saving
+[oraple] level-by-level figure: Laplacian levels shown as 0.5 + 8.14 * x, clipped to [0, 1]
+[hand/eye] mask: cv2.ellipse center (265,395), semi-axes (115,52), angle 2.6 deg; 19023 px = 3.1% of the image
+[hand/eye] eye 'wash-out' vs levels: effective weight of the eye at the ellipse center / mean over the mask / seam width at the center row
+   1 levels: center 1.000   mean in mask 1.000   width 0 px
+   2 levels: center 1.000   mean in mask 0.984   width 6 px
+   3 levels: center 1.000   mean in mask 0.964   width 16 px
+   4 levels: center 1.000   mean in mask 0.925   width 34 px
+   5 levels: center 1.000   mean in mask 0.851   width 74 px
+   6 levels: center 0.952   mean in mask 0.705   width 179 px
+   7 levels: center 0.608   mean in mask 0.459   width 310 px
+   8 levels: center 0.236   mean in mask 0.204   width 320 px
+[handeye] 5 levels; blend range [-0.000, 1.000], 0.00% of values clipped for display/saving

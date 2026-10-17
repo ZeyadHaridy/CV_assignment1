@@ -1,0 +1,16 @@
+original (512, 512) -> shrunk (128, 128); region for the false-circle measure: 8284 px, where the ideal result has strength 0.1187
+EXPERIMENT: strength of the false pattern (1.00 = full-amplitude rings, 0 = flat gray) and RMSE to the ideal result
+ sigma  strength  RMSE vs ideal
+  none     0.999         0.2873
+   0.5     0.836         0.2453
+  0.75     0.626         0.1916
+   1.0     0.446         0.1483
+  1.25     0.297         0.1181
+   1.5     0.187         0.1060
+  1.75     0.113         0.1085
+   2.0     0.068         0.1182
+  2.25     0.042         0.1300
+   2.5     0.028         0.1413
+   3.0     0.018         0.1594
+   4.0     0.013         0.1803
+saved side-by-side for sigma=2.5
