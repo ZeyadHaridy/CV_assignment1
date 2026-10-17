@@ -1,8 +1,0 @@
-broadway_tower (484, 714, 3); removing 214 seams = 30.0% of the width -> 500 columns
-possible vertical seams: between 10^148 and 10^233;  DP work per seam: H*W*3 = 1,036,728 comparisons
-finite-difference energy: 27.8 s for 214 seams (130 ms per seam incl. energy recompute); result (484, 500, 3)
-mean energy per seam pixel: first seam 0.0084, last seam 0.0188, image mean energy 0.0530
-
-PADDING OF THE ENERGY:  zero (as in 1.2)  vs  reflect
-  zeros   : energy on the 1-px frame = 0.459 (interior mean 0.053); seam pixels in the 5 leftmost / rightmost columns: 1717 of 103576; mean seam energy 0.0166
-  reflect : energy on the 1-px frame = 0.025 (interior mean 0.053); seam pixels in the 5 leftmost / rightmost columns: 2565 of 103576; mean seam energy 0.0148
