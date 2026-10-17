@@ -1,0 +1,4 @@
+[rocket] 640x427 -> width 448 (192 seams, 90 s for both energies) | mean seam energy / image mean energy: FD 0.13 (last seam 0.20), DoG 0.22 (last 0.29) | FD/DoG removed-pixel overlap (Jaccard) 0.43
+[home] 512x384 -> width 358 (154 seams, 47 s for both energies) | mean seam energy / image mean energy: FD 0.15 (last seam 0.33), DoG 0.21 (last 0.36) | FD/DoG removed-pixel overlap (Jaccard) 0.53
+[starry_night] 720x568 -> width 504 (216 seams, 103 s for both energies) | mean seam energy / image mean energy: FD 0.45 (last seam 0.54), DoG 0.40 (last 0.50) | FD/DoG removed-pixel overlap (Jaccard) 0.36
+[broadway_tower] 714x484 -> width 500 (214 seams, 80 s for both energies) | mean seam energy / image mean energy: FD 0.28 (last seam 0.35), DoG 0.31 (last 0.42) | FD/DoG removed-pixel overlap (Jaccard) 0.56
